@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+.container {
+  padding: 12px 32px;
+}
+.text-danger {
+  color: rgb(241, 50, 50);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.text-success {
+  color: rgb(39, 158, 39);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: #285b2a;
+  background: #dbefdc -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#e0f1e1),
+      to(#dbefdc)
+    ) repeat-x;
+  background: #dbefdc linear-gradient(180deg, #e0f1e1, #dbefdc) repeat-x;
+  border-color: #cde9ce;
+}
+.alert-success hr {
+  border-top-color: #bbe1bd;
+}
+.alert-success .alert-link {
+  color: #18381a;
+}
+
+.alert-warning {
+  color: #854f00;
+  background: #ffeacc -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffedd4),
+      to(#ffeacc)
+    ) repeat-x;
+  background: #ffeacc linear-gradient(180deg, #ffedd4, #ffeacc) repeat-x;
+  border-color: #ffe2b8;
+}
+.alert-warning hr {
+  border-top-color: #ffd89f;
+}
+.alert-warning .alert-link {
+  color: #523100;
+}
+.alert-danger {
+  color: #770f12;
+  background: #fad2d3 -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fbd9da),
+      to(#fad2d3)
+    ) repeat-x;
+  background: #fad2d3 linear-gradient(180deg, #fbd9da, #fad2d3) repeat-x;
+  border-color: #f8bfc1;
+}
+.alert-danger hr {
+  border-top-color: #f5a8ab;
+}
+.alert-danger .alert-link {
+  color: #4a090b;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "contactmanager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "firebase": "^5.9.3",
+    "gh-pages": "^2.0.1",
+    "history": "^4.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-redux-firebase": "^2.1.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-spinners": "^0.5.4",
+    "redux": "^4.0.1",
+    "redux-auth-wrapper": "^2.0.3",
+    "redux-firestore": "^0.7.3",
+    "redux-thunk": "^2.3.0",
+    "sw-precache": "^5.2.1"
+  },
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
